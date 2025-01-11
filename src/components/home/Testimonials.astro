@@ -1,25 +1,18 @@
 ---
 const testimonials = [
   {
-    name: 'Rebecca Hayes',
-    description: 'Designer',
-    image: '/assets/testimonial-1.webp',
+    name: 'SPESH.LT',
+    description: 'Bakeshop',
+    image: 'https://scontent.fmnl3-4.fna.fbcdn.net/v/t39.30808-6/249464064_109047008252129_7701077183825128542_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=eBJKZhR3fjYQ7kNvgGt3Itr&_nc_zt=23&_nc_ht=scontent.fmnl3-4.fna&_nc_gid=Ay6eHUtnaZGWCcVpjOWthRf&oh=00_AYCp4BV9jOmIBeiryuE_5dHBVSnbV17E-COUKFAZPU6-QA&oe=6788B01B',
     message:
-      '“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”',
+      '“They did a good job setting up our website and connecting it to our inventory. Now my customers know where to look instead of badgering me through chat for prices.”',
   },
   {
-    name: 'Rosa Spencer',
-    description: 'Team Leader',
-    image: '/assets/testimonial-2.webp',
+    name: 'Priestess Mononoke',
+    description: 'Tarot Reader',
+    image: 'https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8b909aad-09cc-4e01-8841-1d5bab79a27e_1920x1080.jpeg',
     message:
-      '“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”',
-  },
-  {
-    name: 'Christina Upton',
-    description: 'Manager',
-    image: '/assets/testimonial-3.webp',
-    message:
-      '“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”',
+      'Love how they set up my workspace! It used to be so cluttered, but now everything is centralized and everything makes more sense. I love how cost-effective it is too!',
   },
 ];
 ---
@@ -28,7 +21,7 @@ const testimonials = [
   <div class="v mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col items-center gap-12 lg:gap-20">
       <h2 class="mx-auto max-w-xl text-center text-3xl font-medium tracking-tight sm:text-4xl">
-        Trusted by the largest companies in the world
+        Trusted by neighborhood businesses, big and small
       </h2>
       <div
         class="divide-primary-900/10 dark:divide-primary-300/10 grid divide-y lg:grid-cols-3 lg:divide-x lg:divide-y-0"
@@ -37,7 +30,7 @@ const testimonials = [
           testimonials.map((testimonial) => (
             <figure class="mx-auto flex max-w-lg flex-col items-center gap-6 py-8 lg:px-8 lg:py-0">
               <div class="flex flex-row gap-2">
-                {[...Array(3)].map(() => (
+                {[...Array(5)].map(() => (
                   <svg
                     class="text-primary-600 dark:text-primary-400 h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
